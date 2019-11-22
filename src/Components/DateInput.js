@@ -6,7 +6,7 @@ const DateInput = (props) => {
         <form onSubmit={props.newDate}>
        Enter Date (YYYY-MM-DD)
         <input />
-        <input type="submit" />
+        <button type="submit">Submit</button>
       </form>
     );
 };

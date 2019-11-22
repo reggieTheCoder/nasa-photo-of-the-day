@@ -1,3 +1,17 @@
 import React from "react";
-const Photo = props => <div>Photo</div>;
+
+
+
+
+const Photo = (props) => {
+    return ( <
+        div className = "photo-container" >
+            <img id = "pod" src = {props.photo}/> 
+        </div>
+    )
+}
+
+
+
+
 export default Photo;

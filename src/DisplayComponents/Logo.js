@@ -4,7 +4,7 @@ import logo from "../img/nasa-logo.jfif";
 
 const Logo = () => {
   return (
-    <div className="logo-container">
+    <div className="">
       <img className="logo" src={logo} alt="nasa logo" />
     </div>
   );
