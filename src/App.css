@@ -48,3 +48,10 @@ html {
   width: 90%;
   height: 220px;
 }
+
+p{
+  margin: auto;
+  line-height: 2em;
+  width: 50%;
+  padding: 5%;
+}
