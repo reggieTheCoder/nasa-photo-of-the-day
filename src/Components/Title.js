@@ -1,13 +1,16 @@
 import React from "react";
+import styled from "styled-components";
+
+const TitleText = styled.h2`
+    color: white;
+`;
 
 const Title = (props) => {
     const title = props.title;
     const date = props.date;
     
     return ( 
-        <div className = "title" >
-            <h2>{title}</h2>
-        </div>
+            <TitleText>{title}</TitleText> 
     )
 }
 

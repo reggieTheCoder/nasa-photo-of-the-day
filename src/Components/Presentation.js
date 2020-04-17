@@ -10,8 +10,10 @@ import SubmittedOn from "./SubmittedOn"
 import PhotographedBy from "./PhotographedBy";
 import Footer from "./Footer";
 
-const Function = styled.div`
+const Wrapper = styled.div`
   text-align: center;
+  background-color:dodgerblue;
+
 `;
 
 
@@ -32,7 +34,7 @@ function Presentation(props) {
 
     return(
         
-        <div>
+        <Wrapper>
             <Logo />
             <Header />
             <Photo photo={apiData.data.hdurl} title={apiData.data.title} />
@@ -40,7 +42,7 @@ function Presentation(props) {
             <SubmittedOn  date={apiData.data.date}/>
             <PhotographedBy photographer={apiData.data.copyright} />
             <Footer />
-        </div>
+        </Wrapper>
         
         
         

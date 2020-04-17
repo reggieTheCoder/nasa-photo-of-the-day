@@ -4,10 +4,8 @@ const SubmittedOn = props => {
     const submissionDate = props.date
     return (
         <div>
-            <h3>Photo submitted on:</h3>
-            <p> {submissionDate}</p>
-        </div>
-        
+            <h4>Photo submitted on: {submissionDate}</h4>
+        </div>  
     )
 }
 

@@ -5,10 +5,8 @@ const PhotographedBy = props => {
     console.log(props.photographer);
     return (
         <div>
-            <h3>Photographed By:</h3>
-            <p>{photographer}</p>
+            <h4>Photographed By: {photographer}</h4> 
         </div>
-    
     )
 }
 

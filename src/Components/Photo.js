@@ -1,14 +1,22 @@
 import React from "react";
+import styled from "styled-components"
+
+const Image = styled.img`
+    width: 30em;
+    height: 20em;
+`;
+
+const PhotoText = styled.h2`
+    color: white;
+`;
 
 const Photo = props => {
-    // console.log(props);
     const photo = props.photo;
     const photoTitle = props.title;
-    // console.log(props.title)
     return (
         <div>
-            <h2>Photo title: {photoTitle}</h2>
-             <img src={photo}></img>
+            <PhotoText>Photo title: {photoTitle}</PhotoText>
+             <Image src={photo}></Image>
         </div>
     )
 }
