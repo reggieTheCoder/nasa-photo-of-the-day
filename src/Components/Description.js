@@ -1,13 +1,16 @@
 import React from "react";
+import styled from "styled-components";
 
-const Description = (props) => {
-
-    return ( <
-        div className = "description" >
-       <h2>{props.description}</h2>
-    
-        
-        </div>
+const DescriptionText = styled.p`
+    margin: auto;
+    line-height: 2em;
+    width: 50%;
+    padding: 2%;
+`;
+const Description = props => {
+    const description = props.description
+    return (
+    <DescriptionText>{description}</DescriptionText>
     )
 }
 
